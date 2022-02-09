@@ -3,6 +3,7 @@ import Hero from "../components/hero/hero";
 import IndexAbout from "../components/index-about/index-about";
 import Process from "../components/process/process";
 import {getAllProcessItems} from "../data/process";
+import FeaturedPosts from "../components/featured-posts/featured-posts";
 
 const HomePage = () => {
 
@@ -31,6 +32,7 @@ const HomePage = () => {
                 </span>
           </div>
           <Process processItems={processItems} />
+          <FeaturedPosts />
       </Fragment>
   )
 };
