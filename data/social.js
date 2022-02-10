@@ -2,7 +2,7 @@ const DUMMY_DATA = [
     {
         id: 's1',
         link: '#',
-        icon: 'fab fa-instagram',
+        icon: 'fab fa-instagram-square',
     },
     {
         id: 's2',

@@ -9,9 +9,11 @@ const Login = () => {
                     <span className={styles['signup']}>
                         ثبت نام
                     </span>
-                    /
+                    <span className={styles.signup}>
+                        /
+                    </span>
                     <span className={styles['signup']}>
-                        ورود
+                        ورود به سامانه
                     </span>
                     <span className={styles['mobile-txt']}>
                         ورود به سامانه

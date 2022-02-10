@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Arrow from "../icons/arrow";
 import ButtonArrow from "../ui/button-arrow";
+import TitleCard from "../ui/title-card";
 
 const PostItem = (props) => {
 
@@ -17,23 +18,24 @@ const PostItem = (props) => {
                 <div className={`${styles['item-wrapper']}`}>
                     <div className={`${styles['img-wrapper']}`}>
                         <Link href={link}>
-
                             <img src={imgPath} alt={title} />
                         </Link>
                     </div>
-                    <div className={`${styles.info}`}>
-                        <Link href={link}>
-                            <h2>
-                                {title}
-                            </h2>
-                        </Link>
-                        <p>
-                            {excerpt}
-                        </p>
-                        <ButtonArrow link="/">
-                            ادامه مطلب
-                        </ButtonArrow>
-                    </div>
+                    <TitleCard>
+                        <div className={`${styles.info}`}>
+                            <Link href={link}>
+                                <h2>
+                                    {title}
+                                </h2>
+                            </Link>
+                            <p>
+                                {excerpt}
+                            </p>
+                            <ButtonArrow link="/">
+                                ادامه مطلب
+                            </ButtonArrow>
+                        </div>
+                    </TitleCard>
                 </div>
             </div>
         </li>

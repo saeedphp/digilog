@@ -1,6 +1,9 @@
 import styles from './posts.module.css';
 import {Fragment} from "react";
 import PostItem from "./post-item";
+import TitleCard from "../ui/title-card";
+import imgPath from '../../public/images/posts/post-2.jpg';
+import Image from "next/image";
 
 const Posts = (props) => {
 

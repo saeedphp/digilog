@@ -5,6 +5,14 @@
     align-items: center;
 }
 
+.logo > a{
+    display: flex;
+}
+
+.logo > a > span > span{
+    display: none !important;
+}
+
 .logo span{
     position: unset !important;
 }
