@@ -9,4 +9,5 @@ const ContactUs = () => {
     )
 };
 
+ContactUs.layout = "L1";
 export default ContactUs;

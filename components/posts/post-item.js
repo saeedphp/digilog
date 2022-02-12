@@ -31,7 +31,7 @@ const PostItem = (props) => {
                             <p>
                                 {excerpt}
                             </p>
-                            <ButtonArrow link="/">
+                            <ButtonArrow link={link}>
                                 ادامه مطلب
                             </ButtonArrow>
                         </div>

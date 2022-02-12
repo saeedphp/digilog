@@ -37,4 +37,5 @@ const HomePage = () => {
   )
 };
 
+HomePage.layout = "L1";
 export default HomePage;

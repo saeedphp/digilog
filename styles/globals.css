@@ -27,6 +27,8 @@
 
 html,
 body {
+  width: 100%;
+  height: 100%;
   padding: 0;
   margin: 0;
   background: #1A1A1B;
@@ -40,6 +42,12 @@ header{
   z-index: 9;
   background: #1a1a1bab;
   backdrop-filter: blur(20px);
+}
+
+.header-webapp{
+  background: unset !important;
+  backdrop-filter: unset !important;
+  position: relative;
 }
 
 header ul li.active{
@@ -209,6 +217,10 @@ img{
   width: 80%;
 }
 
+.col-9{
+  width: 70%;
+}
+
 .col-8{
   width: 60%;
 }
@@ -219,6 +231,10 @@ img{
 
 .col-4{
   width: 25%;
+}
+
+.col-3{
+  width: 30%;
 }
 
 .col-2{

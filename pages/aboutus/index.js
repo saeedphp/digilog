@@ -10,4 +10,5 @@ const AboutPage = () => {
     )
 };
 
+AboutPage.layout = "L1";
 export default AboutPage;

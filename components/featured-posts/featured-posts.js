@@ -87,7 +87,7 @@ const FeaturedPosts = () => {
                                     {post.description.slice(0, 161) + '...'}
                                 </p>
                                 <div className={styles.controllers}>
-                                    <ButtonArrow link="/">
+                                    <ButtonArrow link={`/blog/${post.id}`}>
                                         ادامه مطلب
                                     </ButtonArrow>
                                 </div>
