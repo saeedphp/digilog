@@ -16,7 +16,7 @@ const WebappLayout = (props) => {
                         {props.children}
                     </div>
                 </section>
-                <style jsx global>{`body {background: url(../../images/auth/cloud.png) no-repeat;background-size: cover;}@media (max-width: 768px){body{background: url(../../images/auth/cloud.png);background-size: contain;}}`}</style>
+                <style jsx global>{`body {background: url(../../images/auth/cloud.png) no-repeat;background-size: cover;background-attachment: fixed;}@media (max-width: 768px){body{background: url(../../images/auth/cloud.png);background-size: contain;background-attachment: fixed;}}`}</style>
             </main>
         </Fragment>
     )

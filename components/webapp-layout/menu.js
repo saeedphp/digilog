@@ -6,7 +6,7 @@ import AppHome from "../icons/app-home";
 import AppFlyReg from "../icons/app-flyReg";
 import AppFlyRec from "../icons/app-flyRec";
 import AppProfile from "../icons/app-profile";
-import {Fragment} from "react";
+import { Fragment } from "react";
 
 const Menu = () => {
     return (
@@ -33,31 +33,31 @@ const Menu = () => {
                         <nav>
                             <ul>
                                 <li>
-                                    <Link href="/">
+                                    <Link href="/app">
                                         <a>
-                                                    <span>
-                                                        <AppHome />
-                                                    </span>
+                                            <span>
+                                                <AppHome />
+                                            </span>
                                             خانه
                                         </a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/">
+                                    <Link href="/app/sabtparvaz">
                                         <a>
-                                                    <span>
-                                                        <AppFlyReg />
-                                                    </span>
+                                            <span>
+                                                <AppFlyReg />
+                                            </span>
                                             ثبت پرواز
                                         </a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/">
+                                    <Link href="/app/flightrecords">
                                         <a>
-                                                    <span>
-                                                        <AppFlyRec />
-                                                    </span>
+                                            <span>
+                                                <AppFlyRec />
+                                            </span>
                                             سوابق پروازی
                                         </a>
                                     </Link>
@@ -65,9 +65,9 @@ const Menu = () => {
                                 <li>
                                     <Link href="/">
                                         <a>
-                                                    <span>
-                                                        <AppProfile />
-                                                    </span>
+                                            <span>
+                                                <AppProfile />
+                                            </span>
                                             پروفایل
                                         </a>
                                     </Link>
@@ -83,19 +83,19 @@ const Menu = () => {
                         <li>
                             <Link href="/">
                                 <a>
-                                                    <span>
-                                                        <AppHome />
-                                                    </span>
+                                    <span>
+                                        <AppHome />
+                                    </span>
                                     خانه
                                 </a>
                             </Link>
                         </li>
                         <li>
-                            <Link href="/">
+                            <Link href="/app">
                                 <a>
-                                                    <span>
-                                                        <AppFlyReg />
-                                                    </span>
+                                    <span>
+                                        <AppFlyReg />
+                                    </span>
                                     ثبت پرواز
                                 </a>
                             </Link>
@@ -103,9 +103,9 @@ const Menu = () => {
                         <li>
                             <Link href="/">
                                 <a>
-                                                    <span>
-                                                        <AppFlyRec />
-                                                    </span>
+                                    <span>
+                                        <AppFlyRec />
+                                    </span>
                                     سوابق پروازی
                                 </a>
                             </Link>
@@ -113,9 +113,9 @@ const Menu = () => {
                         <li>
                             <Link href="/">
                                 <a>
-                                                    <span>
-                                                        <AppProfile />
-                                                    </span>
+                                    <span>
+                                        <AppProfile />
+                                    </span>
                                     پروفایل
                                 </a>
                             </Link>

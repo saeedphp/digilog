@@ -1,4 +1,4 @@
-import {Fragment} from "react";
+import { Fragment } from "react";
 import AppHome from "../../components/app-home/app-home";
 
 const WebApp = () => {

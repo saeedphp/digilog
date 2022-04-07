@@ -9,4 +9,5 @@ const AuthPage = () => {
     );
 };
 
+AuthPage.layout='L3';
 export default AuthPage;

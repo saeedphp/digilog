@@ -1,11 +1,10 @@
 import {Fragment} from "react";
+import RegisterBall from "../../components/app/sabtball/registerball";
 
 const Sabtball = () => {
     return (
         <Fragment>
-            <h1>
-                Sabt Ball Page
-            </h1>
+            <RegisterBall />
         </Fragment>
     )
 };
