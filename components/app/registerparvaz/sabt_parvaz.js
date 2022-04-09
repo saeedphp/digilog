@@ -9,7 +9,7 @@ const Sabt_Parvaz = () => {
             <div className={styles.sabt_parvaz}>
                 <div className={styles.parvaz}>
                     <div className={styles.controllers}>
-                        <label for="number_parvaz">شماره پرواز</label>
+                        <label htmlFor="number_parvaz">شماره پرواز</label>
                         <input
                             id="number_parvaz"
                             type="text"
@@ -18,7 +18,7 @@ const Sabt_Parvaz = () => {
                         />
                     </div>
                     <div className={styles.controllers}>
-                        <label for="date_parvaz">تاریخ پرواز</label>
+                        <label htmlFor="date_parvaz">تاریخ پرواز</label>
                         <input
                             id="date_parvaz"
                             type="date"
@@ -28,7 +28,7 @@ const Sabt_Parvaz = () => {
                         />
                     </div>
                     <div className={styles.controllers}>
-                        <label for="certificate">مقطع گواهینامه</label>
+                        <label htmlFor="certificate">مقطع گواهینامه</label>
                         <input
                             id="certificate"
                             type="text"
@@ -57,7 +57,7 @@ const Sabt_Parvaz = () => {
                 </div>
 
                 <div className={styles.controllers}>
-                    <label for="class_ball">کلاس بال</label>
+                    <label htmlFor="class_ball">کلاس بال</label>
                     <input
                         id="class_ball"
                         type="text"
@@ -67,7 +67,7 @@ const Sabt_Parvaz = () => {
                 </div>
 
                 <div className={styles.controllers}>
-                    <label for="brand_ball">برند بال</label>
+                    <label htmlFor="brand_ball">برند بال</label>
                     <input
                         id="brand_ball"
                         type="text"
@@ -77,7 +77,7 @@ const Sabt_Parvaz = () => {
                 </div>
 
                 <div className={styles.controllers}>
-                    <label for="model_ball">مدل بال</label>
+                    <label htmlFor="model_ball">مدل بال</label>
                     <input
                         id="model_ball"
                         type="text"
@@ -150,7 +150,7 @@ const Sabt_Parvaz = () => {
                 </div>
 
                 <div className={styles.controllers}>
-                    <label for="time_takeoff">زمان Takeoff</label>
+                    <label htmlFor="time_takeoff">زمان Takeoff</label>
                     <input
                         id="time_takeoff"
                         type="text"
@@ -160,7 +160,7 @@ const Sabt_Parvaz = () => {
                 </div>
 
                 <div className={styles.controllers}>
-                    <label for="method_takeoff">شیوه Takeoff</label>
+                    <label htmlFor="method_takeoff">شیوه Takeoff</label>
                     <input
                         id="method_takeoff"
                         type="text"
@@ -170,7 +170,7 @@ const Sabt_Parvaz = () => {
                 </div>
 
                 <div className={styles.controllers}>
-                    <label for="speed_takeoff">سرعت باد Takeoff</label>
+                    <label htmlFor="speed_takeoff">سرعت باد Takeoff</label>
                     <input
                         id="speed_takeoff"
                         type="text"
@@ -180,7 +180,7 @@ const Sabt_Parvaz = () => {
                 </div>
 
                 <div className={styles.controllers}>
-                    <label for="jahat_takeoff">جهت باد Takeoff</label>
+                    <label htmlFor="jahat_takeoff">جهت باد Takeoff</label>
                     <input
                         id="jahat_takeoff"
                         type="text"
@@ -195,7 +195,7 @@ const Sabt_Parvaz = () => {
                 </div>
 
                 <div className={styles.controllers}>
-                    <label for="time_landing">زمان Landing</label>
+                    <label htmlFor="time_landing">زمان Landing</label>
                     <input
                         id="time_landing"
                         type="text"
@@ -205,7 +205,7 @@ const Sabt_Parvaz = () => {
                 </div>
 
                 <div className={styles.controllers}>
-                    <label for="speed_landing">سرعت باد Landing</label>
+                    <label htmlFor="speed_landing">سرعت باد Landing</label>
                     <input
                         id="speed_landing"
                         type="text"
@@ -215,7 +215,7 @@ const Sabt_Parvaz = () => {
                 </div>
 
                 <div className={styles.controllers}>
-                    <label for="jahat_landing">جهت باد Landing</label>
+                    <label htmlFor="jahat_landing">جهت باد Landing</label>
                     <input
                         id="jahat_landing"
                         type="text"
@@ -225,7 +225,7 @@ const Sabt_Parvaz = () => {
                 </div>
 
                 <div className={styles.controllers}>
-                    <label for="time_fly">زمان پرواز</label>
+                    <label htmlFor="time_fly">زمان پرواز</label>
                     <input
                         id="time_fly"
                         type="text"
@@ -249,7 +249,7 @@ const Sabt_Parvaz = () => {
                 </div>
 
                 <div className={styles.controllers}>
-                    <label for="pasanger_phone">شماره تماس پسنجر</label>
+                    <label htmlFor="pasanger_phone">شماره تماس پسنجر</label>
                     <input
                         id="pasanger_phone"
                         type="phone"

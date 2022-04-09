@@ -45,7 +45,7 @@ const BodyRecords = () => {
                 <div className={styles.submit_body}>
 
                     <div className={styles.controllers}>
-                        <label for="date">تاریخ</label>
+                        <label htmlFor="date">تاریخ</label>
                         <div className={styles.box_input}>
                             <input
                                 id="date"
@@ -57,7 +57,7 @@ const BodyRecords = () => {
                     </div>
 
                     <div className={styles.controllers}>
-                        <label for="city">شهر</label>
+                        <label htmlFor="city">شهر</label>
                         <div className={styles.box_input}>
                             <Location />
                             <select
@@ -74,7 +74,7 @@ const BodyRecords = () => {
                     </div>
 
                     <div className={styles.controllers}>
-                        <label for="location_Certificate">سایت</label>
+                        <label htmlFor="location_Certificate">سایت</label>
                         <div className={styles.box_inputs}>
                             <div className={styles.item_box_input}>
                                 <Gps />
