@@ -1,5 +1,5 @@
 import {Fragment} from "react";
-import AnjomanBody from "../../components/app/anjoman/anjomanbody";
+import AnjomanBody from "../../../components/app/anjoman/anjomanbody";
 
 const Anjoman = () => {
     return (

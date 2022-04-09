@@ -5,6 +5,7 @@ import IranMap from '../../../public/images/iran_map.png';
 import Gem from "../../icons/gem";
 import Hat2 from "../../icons/hat2";
 import Calendar from "../../icons/calendar";
+import Recharts from "../../chart/chart";
 
 
 const AnjomanBody = () => {
@@ -12,7 +13,6 @@ const AnjomanBody = () => {
     const [showData, setShowData] = useState(true);
     const ShowAll = () => setShowData(true)
     const ShowFun = () => setShowData(false)
-    console.log(showData)
 
     return (
         <>
@@ -142,11 +142,15 @@ const AnjomanBody = () => {
 
 
                     <div className={styles.box}>
-                        <div className={styles.header_box}>
+                        <div className={styles.header_chart}>
                             <div className={styles.title}>
                                 <Hat2 />
                                 <h5>تعداد خلبان ها</h5>
                             </div>
+                        </div>
+
+                        <div className={styles.boxchart}>
+                            <Recharts />
                         </div>
                     </div>
                 </div>

@@ -25,9 +25,11 @@ const FlyingStudents = (props) => {
                 <div className={styles.box_students} key={khalaban.id} id={khalaban.id}>
 
                     {!showData ?
-                        <h5 className={styles.titlestudents}>
-                            {khalaban.title}
-                        </h5>
+                        <div className={styles.title}>
+                            <h4>
+                                <Medal /> {khalaban.title}
+                            </h4>
+                        </div>
                         :
                         ''
                     }
