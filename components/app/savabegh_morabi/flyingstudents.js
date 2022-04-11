@@ -6,6 +6,7 @@ import Arrow from '../../icons/arrow';
 import BodyRecords from '../flight_records/bodyrecords';
 import { useState } from 'react';
 import Hat2 from '../../icons/hat2';
+import Medal from '../../icons/medal';
 
 const FlyingStudents = (props) => {
 
@@ -27,7 +28,7 @@ const FlyingStudents = (props) => {
                     {!showData ?
                         <div className={styles.title}>
                             <h4>
-                                <Medal /> {khalaban.title}
+                                {khalaban.title}
                             </h4>
                         </div>
                         :

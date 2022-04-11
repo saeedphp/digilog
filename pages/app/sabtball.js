@@ -9,5 +9,5 @@ const Sabtball = () => {
     )
 };
 
-Sabtball.layout = "L3";
+Sabtball.layout = "L2";
 export default Sabtball;
