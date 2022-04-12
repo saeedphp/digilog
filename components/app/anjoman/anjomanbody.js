@@ -1,15 +1,11 @@
 import { useState } from "react";
-import Image from "next/image";
 import styles from './anjomanbody.module.css';
-// import IranMap from '../../../public/images/iran_map.png';
 import Gem from "../../icons/gem";
 import Hat2 from "../../icons/hat2";
 import Calendar from "../../icons/calendar";
-import Recharts from "../../chart/chart";
 import Chart2 from "../../chart/chart2";
 import IranMap from "../iranmap/IranMap";
-import { getAllCitys } from "../../../data/citys";
-import { getAllSites } from "../../../data/sites";
+import iranProvinces from "../../../data/iranProvinces";
 
 
 const AnjomanBody = (props) => {
@@ -18,39 +14,43 @@ const AnjomanBody = (props) => {
     const ShowAll = () => setShowData(true)
     const ShowFun = () => setShowData(false)
 
+    const [showCity, setShowCity] = useState(true);
+    const ShowShahr = () => setShowCity(true);
+    const HideShahr = () => setShowCity(false);
 
-    const AllCitys = getAllCitys();
-    const AllSites = getAllSites();
-    const [citys] = useState([AllSites]);
+    const [provinces] = useState(() => iranProvinces);
+
+    const [citys, setCitys] = useState();
 
     const Sitecity = (e) => {
-        setCurrentCity(e.target.value);
-        const filteredSite = citys.filter((item) => item !== currentCity);
-        console.log(filteredSite)
+        setCitys(e.target.value);
+        const [filteredSite] = provinces.filter((item) => item.name === e.target.value);
+        setCurrentSite(filteredSite.sites);
     }
-    
-    const [currentCity, setCurrentCity] = useState('تهران (تهران)');
+
     const [currentSite, setCurrentSite] = useState([
         {
+            id: 'sit20',
             name: 'Vardavrd ( 812 M )',
             flys: 40,
         },
         {
+            id: 'sit21',
             name: 'Shahran ( peak ) ( 755 M )',
             flys: 50,
         },
         {
+            id: 'sit22',
             name: 'Emamzadeh Hashem ( Damavand ) ( 442 M )',
             flys: 70,
         },
         {
+            id: 'sit23',
             name: 'Shirvan ( 812 M )',
             flys: 35,
         },
     ]);
 
-
-    // console.log(currentCity)
 
     return (
         <>
@@ -62,19 +62,18 @@ const AnjomanBody = (props) => {
                                 <select
                                     id="location_Certificate"
                                     name="location_Certificate"
-                                    defaultValue={currentCity}
+                                    defaultValue={citys}
                                     onChange={Sitecity}
+                                    onClick={ShowShahr}
                                 >
-                                    {AllCitys.map((item) => (
+                                    {provinces.map((item) => (
                                         <option
                                             key={item.id}
                                             id={item.id}
-                                            value={item.city}
+                                            value={item.name}
                                             className={styles.options}
                                             selected>
-
-                                            {item.city}
-
+                                            {showCity ? `${item.name}` : `${citys}`}
                                         </option>
                                     ))}
                                 </select>
@@ -89,22 +88,20 @@ const AnjomanBody = (props) => {
                                         <th>آدرس سایت</th>
                                     </tr>
                                     {currentSite.map((site) => {
-                                        // <>
-                                        //     {site.sites.map((data) => {
-                                                return <tr key={site.name}>
-                                                    <td>{site.flys}</td>
-                                                    <td>{site.name}</td>
-                                                </tr>
-
-                                        //     })}
-                                        // </>
+                                        return <tr key={site.id}>
+                                            <td>{site.flys}</td>
+                                            <td>{site.name}</td>
+                                        </tr>
                                     })}
                                 </table>
                             </div>
 
                             <div className={styles.boxmap}>
-                                {/* <Image src={IranMap} alt="iran-map" /> */}
-                                <IranMap />
+                                <IranMap
+                                    HideShahr={HideShahr}
+                                    setCitys={setCitys}
+                                    setCurrentSite={setCurrentSite}
+                                />
                             </div>
                         </div>
                     </div>
@@ -184,7 +181,6 @@ const AnjomanBody = (props) => {
                         </div>
 
                         <div className={styles.boxchart}>
-                            {/* <Recharts /> */}
                             <Chart2 />
                         </div>
                     </div>

@@ -14,6 +14,28 @@ const iranProvinces = [
       "نظرآباد",
       
     ],
+    sites: [
+        {
+            id: 'sit1',
+            name: 'Vardavrd ( 812 M )',
+            flys: 40,
+        },
+        {
+            id: 'sit2',
+            name: 'Shahran ( peak ) ( 755 M )',
+            flys: 50,
+        },
+        {
+            id: 'sit3',
+            name: 'Emamzadeh Hashem ( Damavand ) ( 442 M )',
+            flys: 70,
+        },
+        {
+            id: 'sit4',
+            name: 'Vardavrd ( 812 M )',
+            flys: 35,
+        },
+    ]
   },
   {
     id: 2,
@@ -33,6 +55,28 @@ const iranProvinces = [
       "نمين",
       "نير",
     ],
+    sites: [
+        {
+            id: 'sit1',
+            name: 'Vardavrd ( 812 M )',
+            flys: 40,
+        },
+        {
+            id: 'sit2',
+            name: 'Shahran ( peak ) ( 755 M )',
+            flys: 50,
+        },
+        {
+            id: 'sit3',
+            name: 'Emamzadeh Hashem ( Damavand ) ( 442 M )',
+            flys: 70,
+        },
+        {
+            id: 'sit4',
+            name: 'Vardavrd ( 812 M )',
+            flys: 35,
+        },
+    ]
   },
   {
     id: 3,
@@ -62,6 +106,28 @@ const iranProvinces = [
        "هشترود",
        "هوراند",
     ],
+    sites: [
+        {
+            id: 'sit1',
+            name: 'Vardavrd ( 812 M )',
+            flys: 40,
+        },
+        {
+            id: 'sit2',
+            name: 'Shahran ( peak ) ( 755 M )',
+            flys: 50,
+        },
+        {
+            id: 'sit3',
+            name: 'Emamzadeh Hashem ( Damavand ) ( 442 M )',
+            flys: 70,
+        },
+        {
+            id: 'sit4',
+            name: 'Vardavrd ( 812 M )',
+            flys: 35,
+        },
+    ]
   },
   {
     id: 4,
@@ -89,6 +155,28 @@ const iranProvinces = [
         "میاندوآب",
         "نقده",
     ],
+    sites: [
+        {
+            id: 'sit1',
+            name: 'Vardavrd ( 812 M )',
+            flys: 40,
+        },
+        {
+            id: 'sit2',
+            name: 'Shahran ( peak ) ( 755 M )',
+            flys: 50,
+        },
+        {
+            id: 'sit3',
+            name: 'Emamzadeh Hashem ( Damavand ) ( 442 M )',
+            flys: 70,
+        },
+        {
+            id: 'sit4',
+            name: 'Vardavrd ( 812 M )',
+            flys: 35,
+        },
+    ]
   },
   {
     id: 5,
@@ -112,6 +200,28 @@ const iranProvinces = [
       "دلوار",
       "عسلویه",
     ],
+    sites: [
+        {
+            id: 'sit1',
+            name: 'Vardavrd ( 812 M )',
+            flys: 40,
+        },
+        {
+            id: 'sit2',
+            name: 'Shahran ( peak ) ( 755 M )',
+            flys: 50,
+        },
+        {
+            id: 'sit3',
+            name: 'Emamzadeh Hashem ( Damavand ) ( 442 M )',
+            flys: 70,
+        },
+        {
+            id: 'sit4',
+            name: 'Vardavrd ( 812 M )',
+            flys: 35,
+        },
+    ]
   },
   {
     id: 6,
@@ -130,6 +240,28 @@ const iranProvinces = [
       "سامان",
       "خانمیرزا",
     ],
+    sites: [
+        {
+            id: 'sit1',
+            name: 'Vardavrd ( 812 M )',
+            flys: 40,
+        },
+        {
+            id: 'sit2',
+            name: 'Shahran ( peak ) ( 755 M )',
+            flys: 50,
+        },
+        {
+            id: 'sit3',
+            name: 'Emamzadeh Hashem ( Damavand ) ( 442 M )',
+            flys: 70,
+        },
+        {
+            id: 'sit4',
+            name: 'Vardavrd ( 812 M )',
+            flys: 35,
+        },
+    ]
   },
   {
     id: 7,
@@ -203,6 +335,28 @@ const iranProvinces = [
       "ني ريز",
       "کوار",
     ],
+    sites: [
+        {
+            id: 'sit1',
+            name: 'Vardavrd ( 812 M )',
+            flys: 40,
+        },
+        {
+            id: 'sit2',
+            name: 'Shahran ( peak ) ( 755 M )',
+            flys: 50,
+        },
+        {
+            id: 'sit3',
+            name: 'Emamzadeh Hashem ( Damavand ) ( 442 M )',
+            flys: 70,
+        },
+        {
+            id: 'sit4',
+            name: 'Vardavrd ( 812 M )',
+            flys: 35,
+        },
+    ]
   },
   {
     id: 8,
@@ -232,6 +386,28 @@ const iranProvinces = [
       "منجيل",
       "هشتپر",
     ],
+    sites: [
+        {
+            id: 'sit1',
+            name: 'Vardavrd ( 812 M )',
+            flys: 40,
+        },
+        {
+            id: 'sit2',
+            name: 'Shahran ( peak ) ( 755 M )',
+            flys: 50,
+        },
+        {
+            id: 'sit3',
+            name: 'Emamzadeh Hashem ( Damavand ) ( 442 M )',
+            flys: 70,
+        },
+        {
+            id: 'sit4',
+            name: 'Vardavrd ( 812 M )',
+            flys: 35,
+        },
+    ]
   },
   {
     id: 9,
@@ -264,6 +440,28 @@ const iranProvinces = [
       "نوده خاندوز",
       "نوکنده",
     ],
+    sites: [
+        {
+            id: 'sit1',
+            name: 'Vardavrd ( 812 M )',
+            flys: 40,
+        },
+        {
+            id: 'sit2',
+            name: 'Shahran ( peak ) ( 755 M )',
+            flys: 50,
+        },
+        {
+            id: 'sit3',
+            name: 'Emamzadeh Hashem ( Damavand ) ( 442 M )',
+            flys: 70,
+        },
+        {
+            id: 'sit4',
+            name: 'Vardavrd ( 812 M )',
+            flys: 35,
+        },
+    ]
   },
   {
     id: 10,
@@ -282,6 +480,28 @@ const iranProvinces = [
       "فامنین",
       "درگزین",
     ],
+    sites: [
+        {
+            id: 'sit1',
+            name: 'Vardavrd ( 812 M )',
+            flys: 40,
+        },
+        {
+            id: 'sit2',
+            name: 'Shahran ( peak ) ( 755 M )',
+            flys: 50,
+        },
+        {
+            id: 'sit3',
+            name: 'Emamzadeh Hashem ( Damavand ) ( 442 M )',
+            flys: 70,
+        },
+        {
+            id: 'sit4',
+            name: 'Vardavrd ( 812 M )',
+            flys: 35,
+        },
+    ]
   },
   {
     id: 11,
@@ -303,6 +523,28 @@ const iranProvinces = [
       "كيش",
       "ميناب",
     ],
+    sites: [
+        {
+            id: 'sit1',
+            name: 'Vardavrd ( 812 M )',
+            flys: 40,
+        },
+        {
+            id: 'sit2',
+            name: 'Shahran ( peak ) ( 755 M )',
+            flys: 50,
+        },
+        {
+            id: 'sit3',
+            name: 'Emamzadeh Hashem ( Damavand ) ( 442 M )',
+            flys: 70,
+        },
+        {
+            id: 'sit4',
+            name: 'Vardavrd ( 812 M )',
+            flys: 35,
+        },
+    ]
   },
   {
     id: 12,
@@ -319,6 +561,28 @@ const iranProvinces = [
       "شيروان چرداول",
       "مهران",
     ],
+    sites: [
+        {
+            id: 'sit1',
+            name: 'Vardavrd ( 812 M )',
+            flys: 40,
+        },
+        {
+            id: 'sit2',
+            name: 'Shahran ( peak ) ( 755 M )',
+            flys: 50,
+        },
+        {
+            id: 'sit3',
+            name: 'Emamzadeh Hashem ( Damavand ) ( 442 M )',
+            flys: 70,
+        },
+        {
+            id: 'sit4',
+            name: 'Vardavrd ( 812 M )',
+            flys: 35,
+        },
+    ]
   },
   {
     id: 13,
@@ -355,6 +619,28 @@ const iranProvinces = [
       "ورزنه",
       "هرند",
     ],
+    sites: [
+        {
+            id: 'sit1',
+            name: 'Vardavrd ( 812 M )',
+            flys: 40,
+        },
+        {
+            id: 'sit2',
+            name: 'Shahran ( peak ) ( 755 M )',
+            flys: 50,
+        },
+        {
+            id: 'sit3',
+            name: 'Emamzadeh Hashem ( Damavand ) ( 442 M )',
+            flys: 70,
+        },
+        {
+            id: 'sit4',
+            name: 'Vardavrd ( 812 M )',
+            flys: 35,
+        },
+    ]
   },
   {
     id: 14,
@@ -386,6 +672,28 @@ const iranProvinces = [
       "منوجان",
       "نرماشیر",
     ],
+    sites: [
+        {
+            id: 'sit1',
+            name: 'Vardavrd ( 812 M )',
+            flys: 40,
+        },
+        {
+            id: 'sit2',
+            name: 'Shahran ( peak ) ( 755 M )',
+            flys: 50,
+        },
+        {
+            id: 'sit3',
+            name: 'Emamzadeh Hashem ( Damavand ) ( 442 M )',
+            flys: 70,
+        },
+        {
+            id: 'sit4',
+            name: 'Vardavrd ( 812 M )',
+            flys: 35,
+        },
+    ]
   },
   {
     id: 15,
@@ -408,6 +716,28 @@ const iranProvinces = [
       "گیلانغرب",
       "هرسین",
     ],
+    sites: [
+        {
+            id: 'sit1',
+            name: 'Vardavrd ( 812 M )',
+            flys: 40,
+        },
+        {
+            id: 'sit2',
+            name: 'Shahran ( peak ) ( 755 M )',
+            flys: 50,
+        },
+        {
+            id: 'sit3',
+            name: 'Emamzadeh Hashem ( Damavand ) ( 442 M )',
+            flys: 70,
+        },
+        {
+            id: 'sit4',
+            name: 'Vardavrd ( 812 M )',
+            flys: 35,
+        },
+    ]
   },
   {
     id: 16,
@@ -424,6 +754,28 @@ const iranProvinces = [
       "مانه و سملقان",
       "راز و جرگلان",
     ],
+    sites: [
+        {
+            id: 'sit1',
+            name: 'Shirkoh ( 812 M )',
+            flys: 40,
+        },
+        {
+            id: 'sit2',
+            name: 'Faroj ( peak ) ( 755 M )',
+            flys: 50,
+        },
+        {
+            id: 'sit3',
+            name: 'Jajarm ( Damavand ) ( 442 M )',
+            flys: 70,
+        },
+        {
+            id: 'sit4',
+            name: 'Esfarayen ( 812 M )',
+            flys: 35,
+        },
+    ]
   },
   {
     id: 17,
@@ -465,6 +817,28 @@ const iranProvinces = [
       "مه‌ولات ",
       "نیشابور",
     ],
+    sites: [
+        {
+            id: 'sit5',
+            name: 'Sabzevar ( 312 M )',
+            flys: 20,
+        },
+        {
+            id: 'sit6',
+            name: 'Neishabor ( 755 M )',
+            flys: 80,
+        },
+        {
+            id: 'sit7',
+            name: 'TorbatJam ( 442 M )',
+            flys: 16,
+        },
+        {
+            id: 'sit8',
+            name: 'Heydarieh ( 722 M )',
+            flys: 10,
+        },
+    ]
   },
   {
     id: 18,
@@ -484,6 +858,28 @@ const iranProvinces = [
       "قائنات ",
       "نهبندان",
     ],
+    sites: [
+        {
+            id: 'sit1',
+            name: 'Vardavrd ( 812 M )',
+            flys: 40,
+        },
+        {
+            id: 'sit2',
+            name: 'Shahran ( peak ) ( 755 M )',
+            flys: 50,
+        },
+        {
+            id: 'sit3',
+            name: 'Emamzadeh Hashem ( Damavand ) ( 442 M )',
+            flys: 70,
+        },
+        {
+            id: 'sit4',
+            name: 'Vardavrd ( 812 M )',
+            flys: 35,
+        },
+    ]
   },
   {
     id: 19,
@@ -521,6 +917,28 @@ const iranProvinces = [
       "هندیجان",
       "هویزه",
     ],
+    sites: [
+        {
+            id: 'sit1',
+            name: 'Vardavrd ( 812 M )',
+            flys: 40,
+        },
+        {
+            id: 'sit2',
+            name: 'Shahran ( peak ) ( 755 M )',
+            flys: 50,
+        },
+        {
+            id: 'sit3',
+            name: 'Emamzadeh Hashem ( Damavand ) ( 442 M )',
+            flys: 70,
+        },
+        {
+            id: 'sit4',
+            name: 'Vardavrd ( 812 M )',
+            flys: 35,
+        },
+    ]
   },
   {
     id: 20,
@@ -538,6 +956,28 @@ const iranProvinces = [
       "لنده ",
       "مارگون",
     ],
+    sites: [
+        {
+            id: 'sit1',
+            name: 'Vardavrd ( 812 M )',
+            flys: 40,
+        },
+        {
+            id: 'sit2',
+            name: 'Shahran ( peak ) ( 755 M )',
+            flys: 50,
+        },
+        {
+            id: 'sit3',
+            name: 'Emamzadeh Hashem ( Damavand ) ( 442 M )',
+            flys: 70,
+        },
+        {
+            id: 'sit4',
+            name: 'Vardavrd ( 812 M )',
+            flys: 35,
+        },
+    ]
   },
   {
     id: 21,
@@ -556,6 +996,28 @@ const iranProvinces = [
       "کامیاران",
       "مریوان",
     ],
+    sites: [
+        {
+            id: 'sit1',
+            name: 'Vardavrd ( 812 M )',
+            flys: 40,
+        },
+        {
+            id: 'sit2',
+            name: 'Shahran ( peak ) ( 755 M )',
+            flys: 50,
+        },
+        {
+            id: 'sit3',
+            name: 'Emamzadeh Hashem ( Damavand ) ( 442 M )',
+            flys: 70,
+        },
+        {
+            id: 'sit4',
+            name: 'Vardavrd ( 812 M )',
+            flys: 35,
+        },
+    ]
   },
   {
     id: 22,
@@ -575,6 +1037,28 @@ const iranProvinces = [
       "سلسله ",
       "کوهدشت",
     ],
+    sites: [
+        {
+            id: 'sit1',
+            name: 'Vardavrd ( 812 M )',
+            flys: 40,
+        },
+        {
+            id: 'sit2',
+            name: 'Shahran ( peak ) ( 755 M )',
+            flys: 50,
+        },
+        {
+            id: 'sit3',
+            name: 'Emamzadeh Hashem ( Damavand ) ( 442 M )',
+            flys: 70,
+        },
+        {
+            id: 'sit4',
+            name: 'Vardavrd ( 812 M )',
+            flys: 35,
+        },
+    ]
   },
   {
     id: 23,
@@ -595,6 +1079,28 @@ const iranProvinces = [
     "فراهان",
     "محلات",
    ],
+   sites: [
+       {
+           id: 'sit9',
+           name: 'Meydan ( 812 M )',
+           flys: 97,
+       },
+       {
+           id: 'sit10',
+           name: 'Hastei ( 755 M )',
+           flys: 43,
+       },
+       {
+           id: 'sit11',
+           name: 'Kharabe ( 442 M )',
+           flys: 59,
+       },
+       {
+           id: 'sit12',
+           name: 'Koche ( 812 M )',
+           flys: 18,
+       },
+   ]
   },
   {
     id: 24,
@@ -626,6 +1132,28 @@ const iranProvinces = [
 "نور",
 "نوشهر",
     ],
+    sites: [
+        {
+            id: 'sit1',
+            name: 'rasht ( 812 M )',
+            flys: 40,
+        },
+        {
+            id: 'sit2',
+            name: 'masole ( peak ) ( 755 M )',
+            flys: 50,
+        },
+        {
+            id: 'sit3',
+            name: 'babul ( Damavand ) ( 442 M )',
+            flys: 70,
+        },
+        {
+            id: 'sit4',
+            name: 'Amul ( 812 M )',
+            flys: 35,
+        },
+    ]
   },
   {
     id: 25,
@@ -642,6 +1170,28 @@ const iranProvinces = [
       "سیردان",
       "کوهین",
     ],
+    sites: [
+        {
+            id: 'sit1',
+            name: 'Vardavrd ( 812 M )',
+            flys: 40,
+        },
+        {
+            id: 'sit2',
+            name: 'Shahran ( peak ) ( 755 M )',
+            flys: 50,
+        },
+        {
+            id: 'sit3',
+            name: 'Emamzadeh Hashem ( Damavand ) ( 442 M )',
+            flys: 70,
+        },
+        {
+            id: 'sit4',
+            name: 'Vardavrd ( 812 M )',
+            flys: 35,
+        },
+    ]
   },
   {
     //writen by me, not copied and it's not alphabetize
@@ -650,6 +1200,28 @@ const iranProvinces = [
     name: "قم",
     d: " M 329.70 301.75 C 333.66 298.39 335.13 293.21 338.15 289.16 C 347.10 289.22 355.28 293.73 364.16 294.57 C 365.69 296.81 367.35 299.09 369.82 300.37 C 376.36 304.01 383.02 307.44 389.81 310.57 C 391.72 316.25 389.56 322.10 387.04 327.21 C 384.68 332.51 378.12 333.46 372.99 333.88 C 365.27 333.41 356.76 331.79 349.59 335.50 C 347.28 339.79 347.63 344.94 346.64 349.64 C 339.55 351.79 332.44 354.73 324.93 354.73 C 319.56 353.58 317.88 347.01 313.00 345.06 C 308.03 344.44 303.17 346.06 298.36 347.04 C 297.97 340.89 295.33 334.23 298.46 328.41 C 300.43 324.15 301.36 319.54 302.29 314.97 C 305.67 314.24 308.96 313.03 311.75 310.95 C 317.20 306.81 324.83 306.80 329.70 301.75 Z",
     cities: ["دستجرد", "جعفریه", "سلفچگان", "کهک", "قم", "قنوات"],
+    sites: [
+        {
+            id: 'sit9',
+            name: 'Meydan ( 812 M )',
+            flys: 97,
+        },
+        {
+            id: 'sit10',
+            name: 'Hastei ( 755 M )',
+            flys: 43,
+        },
+        {
+            id: 'sit11',
+            name: 'Kharabe ( 442 M )',
+            flys: 59,
+        },
+        {
+            id: 'sit12',
+            name: 'Koche ( 812 M )',
+            flys: 18,
+        },
+    ]
   },
   {
     id: 27,
@@ -667,6 +1239,28 @@ const iranProvinces = [
       "گرمسار",
       "مهدی شهر",
     ],
+    sites: [
+        {
+            id: 'sit1',
+            name: 'Damghan ( 812 M )',
+            flys: 40,
+        },
+        {
+            id: 'sit2',
+            name: 'Kerman ( peak ) ( 755 M )',
+            flys: 50,
+        },
+        {
+            id: 'sit3',
+            name: 'Aman ( Damavand ) ( 442 M )',
+            flys: 70,
+        },
+        {
+            id: 'sit4',
+            name: 'Tehran ( 812 M )',
+            flys: 35,
+        },
+    ]
   },
   {
     id: 28,
@@ -701,6 +1295,28 @@ const iranProvinces = [
       "هامون",
       "هیرمند",
     ],
+    sites: [
+        {
+            id: 'sit1',
+            name: 'Vardavrd ( 812 M )',
+            flys: 40,
+        },
+        {
+            id: 'sit2',
+            name: 'Shahran ( peak ) ( 755 M )',
+            flys: 50,
+        },
+        {
+            id: 'sit3',
+            name: 'Emamzadeh Hashem ( Damavand ) ( 442 M )',
+            flys: 70,
+        },
+        {
+            id: 'sit4',
+            name: 'Vardavrd ( 812 M )',
+            flys: 35,
+        },
+    ]
   },
   {
     id: 29,
@@ -727,6 +1343,28 @@ const iranProvinces = [
 
 
     ],
+    sites: [
+        {
+            id: 'sit9',
+            name: 'Meydan ( 812 M )',
+            flys: 97,
+        },
+        {
+            id: 'sit10',
+            name: 'Hastei ( 755 M )',
+            flys: 43,
+        },
+        {
+            id: 'sit11',
+            name: 'Kharabe ( 442 M )',
+            flys: 59,
+        },
+        {
+            id: 'sit12',
+            name: 'Koche ( 812 M )',
+            flys: 18,
+        },
+    ]
   },
   {
     id: 30,
@@ -744,6 +1382,28 @@ const iranProvinces = [
       "هرات",
       "يزد",
     ],
+    sites: [
+        {
+            id: 'sit1',
+            name: 'Vardavrd ( 812 M )',
+            flys: 40,
+        },
+        {
+            id: 'sit2',
+            name: 'Shahran ( peak ) ( 755 M )',
+            flys: 50,
+        },
+        {
+            id: 'sit3',
+            name: 'Emamzadeh Hashem ( Damavand ) ( 442 M )',
+            flys: 70,
+        },
+        {
+            id: 'sit4',
+            name: 'Vardavrd ( 812 M )',
+            flys: 35,
+        },
+    ]
   },
   {
     id: 31,
@@ -760,6 +1420,28 @@ const iranProvinces = [
        "طارم",
       "ماهنشان",
     ],
+    sites: [
+        {
+            id: 'sit1',
+            name: 'Vardavrd ( 812 M )',
+            flys: 40,
+        },
+        {
+            id: 'sit2',
+            name: 'Shahran ( peak ) ( 755 M )',
+            flys: 50,
+        },
+        {
+            id: 'sit3',
+            name: 'Emamzadeh Hashem ( Damavand ) ( 442 M )',
+            flys: 70,
+        },
+        {
+            id: 'sit4',
+            name: 'Vardavrd ( 812 M )',
+            flys: 35,
+        },
+    ]
   },
 ];
 

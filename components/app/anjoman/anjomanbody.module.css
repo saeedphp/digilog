@@ -23,7 +23,7 @@
     width: 100%;
     justify-content: flex-start;
     position: relative;
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
 }
 
 .box_select {
@@ -31,19 +31,21 @@
     justify-content: flex-start;
     position: relative;
     background: #232323;
-    padding: .5rem;
-    border: 1px solid #80FF00;
+    padding: 0.5rem;
+    border: 1px solid #80ff00;
     border-radius: 5px;
     -webkit-backdrop-filter: blur(24px);
     backdrop-filter: blur(24px);
+    min-width: 7rem;
 }
 .controllers select {
     background: transparent;
     outline: none;
     border: none;
     color: rgba(255, 255, 255, 0.69);
-    font-size: clamp(.4rem, 1vw, .8rem);
+    font-size: clamp(0.4rem, 1vw, 0.8rem);
     font-weight: 400;
+    width: 100%;
 }
 
 .controllers select svg {
@@ -77,6 +79,20 @@
     cursor: pointer !important;
 }
 
+.controllers select::-webkit-scrollbar {
+    width: 7px;
+    background-color: rgb(14, 32, 192);
+}
+
+.controllers select::-webkit-scrollbar-thumb {
+    width: 7px;
+    background-color: #80ff00;
+}
+
+.controllers select::-webkit-scrollbar-track {
+    width: 4px;
+    background-color: rgb(243, 232, 237);
+}
 
 .box {
     display: flex;
@@ -85,7 +101,7 @@
     flex-direction: column;
     width: 100%;
     background: rgba(255, 255, 255, 0.08);
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     padding: clamp(1rem, 3vw, 4rem);
     box-shadow: 0 0 13px rgb(255 255 255 / 29%) inset;
     margin-bottom: 3rem;
@@ -106,7 +122,7 @@
     border-collapse: collapse;
     width: 100%;
     background-color: #232323;
-    border: .5rem;
+    border: 0.5rem;
     border-radius: 1rem;
 }
 
@@ -121,27 +137,27 @@
 
 .boxdata table tr:first-child {
     background-color: #000;
-    border: 1px solid #80FF00;
-    border-radius: .5rem .5rem 0 0;
+    border: 1px solid #80ff00;
+    border-radius: 0.5rem 0.5rem 0 0;
 }
 
-.boxdata table tr:nth-child(even){
+.boxdata table tr:nth-child(even) {
     background-color: #1a1a1a;
 }
 
 .boxdata table tr:last-child {
-    border-radius: 0 0 .5rem .5rem;
+    border-radius: 0 0 0.5rem 0.5rem;
 }
 
 .boxdata table th {
-    padding: clamp(.2rem, 1vw, .7rem);
-    font-size: clamp(.4rem, 1vw, .8rem);
+    padding: clamp(0.2rem, 1vw, 0.7rem);
+    font-size: clamp(0.6rem, 1vw, 0.8rem);
     font-weight: 400;
 }
 
 .boxdata table td {
-    padding: clamp(.2rem, 1vw, .7rem);
-    font-size: clamp(.3rem, 1vw, .8rem);
+    padding: clamp(0.2rem, 1vw, 0.7rem);
+    font-size: clamp(0.6rem, 1vw, 0.8rem);
     font-weight: 400;
     text-align: left;
 }
@@ -168,7 +184,7 @@
 .boxmap img {
     object-fit: contain;
     max-width: 100% !important;
-    position: absolute!important;
+    position: absolute !important;
 }
 
 .header_box {
@@ -176,7 +192,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: .5rem;
+    margin-top: 0.5rem;
 }
 
 .title {
@@ -184,39 +200,39 @@
     justify-content: center;
     align-items: center;
     background: #232323;
-    border: 1px solid #80FF00;
+    border: 1px solid #80ff00;
     border-radius: 5px;
-    padding: clamp(.2rem, .5vw, .5rem) clamp(.4rem, 1vw, 1rem);
+    padding: clamp(0.2rem, 0.5vw, 0.5rem) clamp(0.4rem, 1vw, 1rem);
 }
 
 .title h5 {
     padding: 0;
     margin: 0;
     color: #fff;
-    font-size: clamp(.3rem, 1vw, .8rem);
+    font-size: clamp(0.3rem, 1vw, 0.8rem);
     font-weight: 400;
 }
 .title svg {
-    width: clamp(.5rem, 2vw, 2rem);
-    margin-left: .4rem;
+    width: clamp(0.5rem, 2vw, 2rem);
+    margin-left: 0.4rem;
 }
 
 .buttonss {
     display: none;
-    background: #80FF00;
-    padding: 0 .5rem;
+    background: #80ff00;
+    padding: 0 0.5rem;
     border-radius: 5px;
 }
 
 .buttonss select {
     color: #000;
-    background:transparent;
+    background: transparent;
     border: none;
     outline: none;
     width: 100%;
-    padding: .5rem 0;
+    padding: 0.5rem 0;
     cursor: pointer;
-    font-size: clamp(.4rem, 1vw, .9rem);
+    font-size: clamp(0.4rem, 1vw, 0.9rem);
 }
 
 .buttonss select::-ms-expand {
@@ -225,7 +241,7 @@
 
 .buttons button {
     color: #000;
-    font-size: clamp(.4rem, 1vw, .9rem);
+    font-size: clamp(0.4rem, 1vw, 0.9rem);
     border: none;
     outline: none;
     border-radius: 5px;
@@ -234,13 +250,12 @@
 }
 
 .buttons button:first-child {
-    padding: .5rem 1.3rem;
+    padding: 0.5rem 1.3rem;
 }
-
 
 .buttons button:last-child {
     margin-right: 1rem;
-    padding: .5rem .9rem;
+    padding: 0.5rem 0.9rem;
 }
 
 @media screen and (max-width: 500px) {
@@ -267,9 +282,9 @@
     justify-content: space-between;
     background: #232323;
     border-radius: 5px 0 0 5px;
-    border-right: .3rem solid #80FF00;
-    padding: 0.5rem 1rem .5rem clamp(.8rem, 1.5vw, 2rem);
-    margin-top: clamp(.4rem, 1vw, 1rem);
+    border-right: 0.3rem solid #80ff00;
+    padding: 0.5rem 1rem 0.5rem clamp(0.8rem, 1.5vw, 2rem);
+    margin-top: clamp(0.4rem, 1vw, 1rem);
 }
 
 .time {
@@ -280,9 +295,9 @@
 
 .time span {
     color: #fff;
-    font-size: clamp(.4rem, 1vw, .9rem);
+    font-size: clamp(0.4rem, 1vw, 0.9rem);
     font-weight: 400;
-    margin-left: clamp(.5rem, 1vw, 1rem);
+    margin-left: clamp(0.5rem, 1vw, 1rem);
 }
 
 .time div {
@@ -292,13 +307,13 @@
 }
 
 .time svg {
-    width: clamp(.7rem, 1vw, 1.3rem);
-    margin-left: clamp(.2rem, 1vw, .7rem);
+    width: clamp(0.7rem, 1vw, 1.3rem);
+    margin-left: clamp(0.2rem, 1vw, 0.7rem);
 }
 
 .qty {
-    color: #80FF00;
-    font-size: clamp(.8rem, 2vw, 2rem);
+    color: #80ff00;
+    font-size: clamp(0.8rem, 2vw, 2rem);
 }
 
 .header_chart {
@@ -309,7 +324,7 @@
 }
 
 .header_chart svg {
-    fill: #80FF00;
+    fill: #80ff00;
 }
 
 .boxchart {
@@ -317,6 +332,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 300px;
+    max-height: 300px;
+    margin-top: 1.5rem;
 }
 
 .boxchart .row {
@@ -326,7 +344,7 @@
 .boxchart text {
     font-family: IRANSansDN;
     fill: #fff;
-    font-size: clamp(.4rem, 1vw, .9rem);
+    font-size: clamp(0.4rem, 1vw, 0.9rem);
 }
 
 .boxchart .recharts-surface {

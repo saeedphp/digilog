@@ -21,7 +21,7 @@ const useMouse = () => {
   return mousePosition;
 };
 
-const IranMap = () => {
+const IranMap = ({ setCitys, setCurrentSite, HideShahr }) => {
   const { x, y } = useMouse();
   const [provinces] = useState(() => iranProvinces);
   const [provinceName, setProvinceName] = useState("");
@@ -114,8 +114,11 @@ const IranMap = () => {
                   onMouseLeave={() => setProvinceName("")}
                   onClick={() => {
                     setCities(province.cities);
-                    setProvinceSelected(true);
+                    // setProvinceSelected(true);
                     setProvinceNameOnClick(province.name);
+                    setCitys(province.name);
+                    setCurrentSite(province.sites);
+                    HideShahr()
                   }}
                 />
               ))}
